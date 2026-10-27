@@ -1,0 +1,253 @@
+.maindiv {
+  height: 100vh;
+  display: grid; 
+  grid-template-columns: 30% 1fr;
+}
+
+.left-side {
+  background-color: rgba(0, 0, 0, 0.734);;
+  height:100vh;
+  width: auto;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+}
+
+.data-frame {
+  display: flex;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  
+  align-content: start;
+
+  width: 75%;
+  height: 50vh;
+  padding: 20px;
+  box-sizing: border-box;
+
+  background-color: rgba(0, 0, 0, 0.734);;
+  overflow-y: auto;
+  border-radius: 30px;
+}
+
+.menu-buttons {
+  margin: 30%;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+
+#menu-button {
+  background: none;
+  border: solid;
+  border-color: white;
+  border-radius: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  font-size: 2.5vw;
+  cursor: pointer;
+
+  color: white;
+
+}
+
+#menu-button:hover {
+  background: white;
+  color: black;
+}
+
+.Card {
+  display: grid;
+  align-content: start;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.173);
+  width: 100%;
+  height: 100%;
+
+  padding-top: 5%;
+}
+
+.detail-txt {
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.stat-card {
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.734);
+
+  border-radius: 30px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+
+.statcards {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+
+.games-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  text-align: center;
+}
+
+.game-thead {
+  width: 100%;
+}
+
+
+.error-tag {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  font-size: 3vw;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.856);
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  
+
+
+}
+
+.detail-frame {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+
+  width: 75%;
+  height: 50vh;
+  padding: 20px;
+  box-sizing: border-box;
+
+  background-color: rgba(0, 0, 0, 0.734);;
+  overflow-y: auto;
+  border-radius: 30px;
+  
+}
+
+.detail-paragraph {
+  text-align: center;
+}
+
+.teamData {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  width: 50%;
+  align-items: center;
+
+}
+
+.team-img {
+  width: 40%;
+  height: 55%;
+}
+
+.team-information {
+  display: flex;
+}
+
+.vs-text {
+  margin-top: 10%;
+  
+  
+}
+
+.topDetail-paragraph {
+  font-weight: normal;
+  font-size: 1.1vw;
+  text-align: center;
+}
+
+.top-details {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.charts-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  width: 80%;
+  height: 40%;
+ 
+}
+
+.chart-card {
+  background-color: rgba(0, 0, 0, 0.734);
+  border-radius: 15px;
+  padding: 10px;
+  min-width: 0;
+  height: 100%;
+}
+
+
+th {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  background-color: rgba(203, 101, 28, 0.89);
+}
+
+td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bold
+}
+
+h3 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+tr:hover {
+  cursor: pointer;
+}
+
